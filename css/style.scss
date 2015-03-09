@@ -44,6 +44,7 @@ $dark-grey: #394042;
 \*------------------------------------*/
 
 html, body {
+	background: url('../img/dot.png');
 	font-size: 100%;
 	width: 100%;
 	height: 100%;
@@ -53,6 +54,7 @@ html, body {
 }
 
 body {
+	color: $main-color;
 	-webkit-text-size-adjust: 100%; /* Because iPhones are dumb sometimes. */
 	font-weight: normal;
 	-webkit-font-smoothing: antialiased;
@@ -81,6 +83,16 @@ ul, li {
 
 /*------------------------------------*\
     #Main_Style
+\*------------------------------------*/
+
+.class {}
+
+
+
+
+
+/*------------------------------------*\
+    #Element_Style
 \*------------------------------------*/
 
 .class {}
