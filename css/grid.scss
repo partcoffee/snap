@@ -2,7 +2,7 @@
     #Variables
 \*------------------------------------*/
 
-$pad: 8px;
+$pad: 8px; /* Adjust accordingly */
 
 
 /*------------------------------------*\
@@ -14,7 +14,7 @@ $pad: 8px;
 	/* margin: 0 auto; --- Optional */
 
 	&:after {
-		content: "";
+		content: '';
 		display: table;
 		clear: both;
 	}
@@ -22,8 +22,11 @@ $pad: 8px;
 
 [class*='col-'] {
 	float: left;
-	line-height: 0; /* Remember to set line-height for any col-element with text */
 	padding: $pad;
+
+	img {
+		line-height: 0; /* Can be removed */
+	}
 }
 
 

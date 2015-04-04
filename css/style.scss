@@ -11,7 +11,6 @@ $secondary: 'Source Sans Pro', sans-serif;
 /* Colours */
 $main-color: #555;
 $highlight-color: #4caac6;
-$dark-grey: #394042;
 
 
 /* Other */
@@ -26,7 +25,7 @@ $dark-grey: #394042;
 @mixin animate($time) {
 	-webkit-transition: $time;
 	-moz-transition: $time;
-	-o-transition: $time;
+	-o-transition: $time; /* Can be ignored */
 	transition: $time;
 }
 
@@ -44,7 +43,7 @@ $dark-grey: #394042;
 \*------------------------------------*/
 
 html, body {
-	background: url('../img/dot.png');
+	background: url('../img/dot.png'); /* Replace */
 	font-size: 100%;
 	width: 100%;
 	height: 100%;
