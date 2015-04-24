@@ -13,26 +13,9 @@ $main-color: #555;
 $highlight-color: #4caac6;
 
 
-/* Other */
-@mixin vertical-align {
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-@mixin animate($time) {
-	-webkit-transition: $time;
-	-moz-transition: $time;
-	-o-transition: $time; /* Can be ignored */
-	transition: $time;
-}
-
-
 /* Import */
+@import 'mixins';
 @import 'grid';
-@import 'retina'; /* Use SVG when possible */
 @import 'typography';
 
 
