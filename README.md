@@ -1,0 +1,1 @@
+Update 26.05.2015: To be updated at some point, with a generator like Jekyll in mind.

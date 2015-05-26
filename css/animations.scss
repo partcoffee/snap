@@ -2,7 +2,7 @@
     #Animations
 \*------------------------------------*/
 
-.animated {
+%animated {
 	-webkit-animation-duration: .6s;
 	animation-duration: .6s;
 	-webkit-animation-fill-mode: both;
@@ -20,6 +20,7 @@
 }
 
 .fadeIn {
+	@extend %animated;
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
 }
@@ -35,6 +36,7 @@
 }
 
 .fadeOut {
+	@extend %animated;
 	-webkit-animation-name: fadeOut;
 	animation-name: fadeOut;
 }
@@ -72,6 +74,7 @@
 }
 
 .fadeInUp {
+	@extend %animated;
 	-webkit-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 }
