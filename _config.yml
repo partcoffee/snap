@@ -1,0 +1,17 @@
+# Site settings
+title: Stite Title
+description: Site Description
+baseurl: ""
+url: ""
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+
+# Time zone
+timezone: Europe/London

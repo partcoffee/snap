@@ -1,16 +1,18 @@
+---
+---
 /*------------------------------------*\
     #Dependencies
 \*------------------------------------*/
 
 
 /* Fonts */
-$primary: 'Source Sans Pro', sans-serif;
-$secondary: 'Source Sans Pro', sans-serif;
+$primary: 'proxima-nova', sans-serif;
+$secondary: 'source-sans-pro', sans-serif;
 
 
 /* Colours */
 $main-color: #555;
-$highlight-color: #4caac6;
+$highlight-color: #00b6ff;
 
 
 /* Import */
@@ -27,9 +29,6 @@ $highlight-color: #4caac6;
 \*------------------------------------*/
 
 html, body {
-	background: url('../img/dot.png'); /* Replace */
-	font-size: 100%;
-	height: 100%;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
@@ -37,8 +36,12 @@ html, body {
 }
 
 body {
+	background: url('../img/assets/dot.png'); /* In the sketch-stage */
 	color: $main-color; /* Replace */
+	font-size: 100%;
 	font-weight: normal;
+	margin: 10% auto; /* Replace */
+	max-width: 80%; /* Replace */
 	-webkit-text-size-adjust: 100%; /* Because iPhones are dumb sometimes. */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -51,6 +54,7 @@ body {
 }
 
 img {
+	border: 0;
 	max-width: 100%;
 }
 
@@ -68,7 +72,9 @@ ul, li {
     #Main_Style
 \*------------------------------------*/
 
-.class {}
+nav {}
+
+header {}
 
 
 

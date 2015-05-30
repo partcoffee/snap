@@ -4,13 +4,28 @@
 
 h1, h2, h3 {
 	font-family: $primary;
+	font-weight: 600;
 }
 
-p {
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3125em;
+}
+
+p, li {
 	font-family: $secondary;
+	font-size: 1em;
 }
 
 a {
 	color: $main-color;
+	font-size: 1em;
 	text-decoration: none;
 }

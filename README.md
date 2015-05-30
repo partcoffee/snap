@@ -1,1 +1,3 @@
-Update 26.05.2015: To be updated at some point, with a generator like Jekyll in mind.
+# Snap
+
+Bare bones Jekyll site I use --- without the blogging stuff.
