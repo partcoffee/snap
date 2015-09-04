@@ -10,7 +10,7 @@
 <meta content="{% if page.title %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}/{% endif %}" property="og:url">
 
 <!-- Desc. goes below this -->
-<meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}---------DESC GOES HERE---------.{% endif %}" />
+<meta name="description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="shortcut icon" href="{{ site.baseurl }}/img/assets/favicon.ico">
