@@ -2,30 +2,37 @@
     #Typography
 \*------------------------------------*/
 
+html {
+	font-size: 14px;
+
+	@media (min-width: $break) {
+		font-size: 15px;
+	}
+}
+
 h1, h2, h3 {
 	font-family: $primary;
 	font-weight: 600;
 }
 
 h1 {
-	font-size: 2.25em;
+	font-size: 2.25rem;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 h3 {
-	font-size: 1.3125em;
+	font-size: 1.3125rem;
 }
 
 p, li {
 	font-family: $secondary;
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 a {
 	color: $main;
-	font-size: 1em;
 	text-decoration: none;
 }

@@ -3,3 +3,26 @@
 $(function() {
 	FastClick.attach(document.body);
 });
+
+
+// Fade into view
+// ;(function($) {
+// 	$('p').css('transition', '0.2s ease-out');
+
+// 	var handleObjectVisibility = function() {
+// 		var offset = $(document).scrollTop();
+// 		var cards = $('p');
+// 		for (var i=0; i < cards.length; i++) {
+// 			if ($(cards[i]).offset().top <= offset + $(window).height() / 1.25) {
+// 				$(cards[i]).css('opacity', 1);
+// 			} else {
+// 				$(cards[i]).css('opacity', 0);
+// 			}
+// 		}
+// 	};
+
+// 	$(document).on('load scroll', function() {
+// 		handleObjectVisibility();
+// 	});
+
+// })(jQuery);
