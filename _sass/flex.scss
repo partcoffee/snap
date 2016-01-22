@@ -3,14 +3,11 @@
 \*------------------------------------*/
 
 .flex {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
-	flex-flow: row wrap;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 
 .item {
-	flex: 1 0 25%;
+	flex: 1 1 25%
 }
