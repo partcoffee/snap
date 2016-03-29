@@ -12,7 +12,7 @@ html {
 
 h1, h2, h3 {
 	font-family: $primary;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 h1 {
@@ -28,8 +28,7 @@ h3 {
 }
 
 p, li {
-	font-family: $secondary;
-	font-size: 1rem;
+	font: 400 1rem/1.5 $secondary;
 }
 
 a {
